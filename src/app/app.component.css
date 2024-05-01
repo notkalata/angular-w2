@@ -1,0 +1,87 @@
+#additionalModal {
+  width: 400px;
+  margin: 1rem auto;
+  padding: 2rem;
+  font-family: Tahoma, sans-serif;
+  box-shadow: 3px 5px 15px rgba(0,0,0,0.5);
+}
+
+#wrapper {
+  width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Tahoma, sans-serif;
+  box-shadow: 3px 5px 15px rgba(0,0,0,0.5);
+}
+
+.group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="text"],
+textarea {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: Tahoma, sans-serif;
+}
+
+.current-rating {
+  font-family: Tahoma, sans-serif;
+  color: rgba(52, 152, 219, 0.79);
+}
+
+.rating {
+  margin-top: 20px;
+}
+
+.rating button, #additionalModal button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.danger {
+  background-color: #FF3333;
+}
+
+.submit {
+  background-color: rgba(52, 152, 219, 0.79);
+}
+
+.rating button:hover {
+  opacity: 0.8;
+}
+
+.rating button[value="1"] {
+  background-color: #FF3333;
+}
+
+.rating button[value="2"] {
+  background-color: #FFA500;
+}
+
+.rating button[value="3"] {
+  background-color: #FFD700;
+}
+
+.rating button[value="4"] {
+  background-color: #6B8E23;
+}
+
+.rating button[value="5"] {
+  background-color: #008000;
+}
